@@ -1,0 +1,7 @@
+--- 
+- hosts: all
+  tasks: 
+  - name : am going to install git on all the nodes
+    apt: 
+     name: git 
+     state: present
