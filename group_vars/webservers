@@ -1,3 +1,4 @@
-  --- 
-  webserverpackonubuntu: apache2 
-  webserverpackonredhat: httpd 
+--- 
+
+  webserverpackonubuntu: apache2
+  webserverpackonredhat: httpd
