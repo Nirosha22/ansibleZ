@@ -10,7 +10,7 @@
      
     - name: install tree 2
       yum: 
-        namee: tree
+        name: tree
         state: present
       
     - name: install wget 3
