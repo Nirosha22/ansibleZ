@@ -12,7 +12,7 @@
       yum: 
         name: git
         state: present
-      when: myresult.stderr ==!""    
+      when: myresult.stderr !==""    
     - name: install tree 3
       yum: 
         name: tree
