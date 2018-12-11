@@ -2,8 +2,8 @@
 - hosts: webservers
   become: yes
   vars: 
-     var1: Niru
-     var2: San
+    var1: Niru
+    var2: San
   tasks: 
    - name: display playbook vars vrr1
      debug: 
