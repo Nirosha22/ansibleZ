@@ -7,7 +7,7 @@
   tasks: 
    - name: display playbook vars vrr1
      debug: 
-      msg: "{{var2}}"
-   - name: diplay group vars
+      msg: "{{var1}}"
+   - name: display group vars
      debug: 
       msg: "{{mycompname}}"
