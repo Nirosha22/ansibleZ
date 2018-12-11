@@ -1,0 +1,5 @@
+---
+- name: create file on nodes
+  file: 
+    path: /home/niru/niru.txt
+    state: touch
