@@ -8,4 +8,17 @@
       name: httpd
       state: present
     notify: restarthttpd
+
+  - name: copy index file into all nodes
+    template: 
+      src: myindex.j2
+      dest: /var/www/html/index.html
+    notify: restarthttpd
+
+  
+  handlers: 
+   - name: restarthttpd 
+     service: 
+      name: httpd
+      state: restarted
   
